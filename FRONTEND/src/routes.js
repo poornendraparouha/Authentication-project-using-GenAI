@@ -5,10 +5,13 @@ import Signin from './components/Signin';
 import Signup from './components/Signup';
 import NotFound from './components/NotFound';
 import ProtectedRoute from './auth/protectedRoute';
+import AppNavbar from "./components/Navbar"
 
 const AppRoutes = () => {
   return (
     <Router>
+    {/* Include the Navbar on all pages */}
+      <AppNavbar />
       <Routes>
         {/* Public Routes */}
         <Route path="/signup" element={<Signup />} />
