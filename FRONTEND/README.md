@@ -36,7 +36,7 @@ This is the frontend for the MERN stack authentication app built with React and 
 
 3. **Set up environment variables**:
     Create a .env file in the root directory and add the backend URL
-    REACT_APP_API_URL=http://localhost:5000
+-    REACT_APP_API_URL=http://localhost:5000
 
 4. **Run the app**:
     npm start
@@ -60,14 +60,14 @@ src/
   └── routes.js
 
 ```
-App.js: Contains the routes and integrates the AppNavbar.
-Navbar.js: Renders the Navbar with the logout button.
-ProtectedRoute.js: Protects routes by checking if the JWT token is valid.
-Signup.js & Signin.js: Contains forms for sign-up and sign-in functionalities.
+- App.js: Contains the routes and integrates the AppNavbar.
+- Navbar.js: Renders the Navbar with the logout button.
+- ProtectedRoute.js: Protects routes by checking if the JWT token is valid.
+- Signup.js & Signin.js: Contains forms for sign-up and sign-in functionalities.
 
 ## Available Scripts
-npm start: Runs the app in development mode.
-npm run build: Builds the app for production.
+- npm start: Runs the app in development mode.
+- npm run build: Builds the app for production.
 
 ## Usage
 1. Sign up or sign in.
