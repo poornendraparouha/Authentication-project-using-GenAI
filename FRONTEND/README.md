@@ -43,24 +43,21 @@ This is the frontend for the MERN stack authentication app built with React and 
 
 ## Folder Structure
 
+```bash
 src/
-  |-- api/
-  |   |-- axiosConfig.js
-  |
-  |-- auth/
-  |   |-- ProtectedRoute.js
-  |
-  |-- components/
-  |   |-- Signup.js
-  |   |-- Signin.js
-  |   |-- Home.js
-  |   |-- Navbar.js
-  |   |-- NotFound.js
-  |
-  |-- App.js
-  |-- index.js
-  |-- routes.js
-  |-- ...
+  ├── api/
+  │   └── axiosConfig.js
+  ├── auth/
+  │   └── ProtectedRoute.js
+  ├── components/
+  │   ├── Signup.js
+  │   ├── Signin.js
+  │   ├── Home.js
+  │   ├── Navbar.js
+  │   └── NotFound.js
+  ├── App.js
+  ├── index.js
+  └── routes.js
 
 
 App.js: Contains the routes and integrates the AppNavbar.
