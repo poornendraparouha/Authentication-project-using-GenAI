@@ -59,7 +59,7 @@ src/
   ├── index.js
   └── routes.js
 
-
+```
 App.js: Contains the routes and integrates the AppNavbar.
 Navbar.js: Renders the Navbar with the logout button.
 ProtectedRoute.js: Protects routes by checking if the JWT token is valid.
