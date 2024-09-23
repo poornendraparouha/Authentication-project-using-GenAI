@@ -29,8 +29,8 @@ This is the backend for the MERN stack authentication app. It provides REST APIs
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/mern-auth-backend.git
-   cd mern-auth-backend
+   git clone https://github.com/poornendraparouha/FullStack-Authentication-project.git
+   cd BACKEND
 
 
 2. **Install dependencies**:
@@ -39,7 +39,7 @@ This is the backend for the MERN stack authentication app. It provides REST APIs
 3. **Set up environment variables**:
 
     Create a `.env` file in the root directory with the following variables:
--   MONGO_URI=mongodb+srv://yourusername:yourpassword@cluster.mongodb.net/myDatabase
+-   MONGO_URI=mongodb+srv://yourusername: yourpassword@cluster.mongodb.net/myDatabase
 -   JWT_SECRET=your_jwt_secret
 -   PORT=5000
 
